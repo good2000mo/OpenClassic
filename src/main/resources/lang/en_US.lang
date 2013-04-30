@@ -1,0 +1,256 @@
+core:
+    fail-working-dir: Failed to create working directory!
+    no-lwjgl: Your system does not support LWJGL.
+    fail-unpack: Failed to unpack native "%s"!
+    fail-options-load: Failed to load options.
+    fail-options-save: Failed to save options.
+    fail-resources: "The resource directory could not be created: %s"
+    fail-font: Failed to load font image!
+    fail-texture: Failed to bind texture!
+    fail-start: Failed to start Minecraft!
+    client-error: Client error
+    game-broke: The game broke! [%s]
+    tick-error: "Exception while ticking: %s"
+    startup:
+        client: Starting OpenClassic Client v%s...
+        server: Starting OpenClassic v%s...
+config:
+    fail-load: Failed to load config!
+command:
+    wrong-sender:
+        single: You must be a %s to use this command.
+        multi: You must be one of the following (%s) to use this command.
+    no-perm: You don't have permission to use this command!
+    usage: Usage
+    fail-invoke: Failed to invoke command %s!
+    unknown: Unknown command.
+    multiple-players: Multiple players found. Try being more specific.
+    player-not-found: Player not found.
+    player-only: You must be a player to do that.
+    second-not-found: Second player not found.
+    deny-higher-group: You cannot do that to a player in a higher group!
+help:
+    invalid-page: Invalid page number.
+    page-not-found: Page not found.
+    pages: Available commands (page %s of %s)
+pkg:
+    invalid-operation: Invalid operation. Valid operations are %s.
+reload:
+    reloading: Reloading OpenClassic...
+    complete: Reload complete.
+spawn:
+    set: Spawn set to %s, %s, %s!
+solid:
+    enable: Bedrock mode enabled.
+    disable: Bedrock mode disabled.
+water:
+    enable: Water mode enabled.
+    disable: Water mode disabled.
+stillwater:
+    enable: Still Water mode enabled.
+    disable: Still Water mode disabled.
+lava:
+    enable: Lava mode enabled.
+    disable: Lava mode disabled.
+stilllava:
+    enable: Still Lava mode enabled.
+    disable: Still Lava mode disabled.
+stop: Stopping the server...
+ban:
+    banned: "%s has been banned!"
+    unbanned: "%s has been unbanned!"
+kick:
+    kicked: "%s has been kicked!"
+whitelist:
+    whitelisted: "%s has been whitelisted!"
+    unwhitelisted: "%s has been unwhitelisted!"
+group:
+    invalid: Invalid group!
+    cant-set: You cannot set that group!
+    set-notify: You are now in group %s!
+    set: "%s is now in group %s!"
+teleport:
+    teleport-to: Teleported to %s!
+    teleported-to: "%s teleported you to %s!"
+    teleported-to-notify: Teleported %s to %s!
+    teleported-to-you: Teleported %s to you!
+    invalid-coords: Invalid coordinates.
+level:
+    level-not-found: Level not found.
+    loaded: Loaded levels
+    load-success: Level "%s" has been loaded!
+    load-fail: Failed to load level "%s"!
+    save-fail: Failed to save level "%s"!
+    unload-success: Level "%s" has been unloaded!
+    unload-main: Cannot unload the main world!
+    create-success: The level has been successfully created!
+    invalid-dim: Invalid width, depth, or height.
+    invalid-type: Invalid world type.
+    exists: The level already exists.
+    not-loaded: Level not loaded.
+    goto: "%s went to %s!"
+    format-mismatch: Only %s levels are supported!
+    try-mcforge: Trying MCForge 6...
+    unknown-version: Unknown map version!
+    unsupported-version: Unsupported map version!
+    unsupported-format: Unsupported map format!
+    detected-format: "%s map detected! Reading..."
+    auto-create: Level "%s" was not found. Creating with default settings...
+    loading: Loading level
+    reading: Reading...
+    generating: Generating level...
+    raising: Raising...
+    soiling: Soiling...
+    eroding: Eroding...
+    carving: Carving...
+    watering: Watering...
+    melting: Melting...
+    growing: Growing...
+    planting: Planting...
+    saving: Saving level...
+    save-all: Saving levels...
+player:
+    login: "%s has logged in."
+    logout: "%s has logged out."
+disconnect:
+    invalid-user: Invalid username.
+    user-length: Username too long or too short!
+    login-location: Logged in from another location.
+    version-mismatch: Client and server protocol version do not match.
+    verify-failed: Failed to verify user as logged in on minecraft.net!
+    verify-error: An error occured while verifying your username! Please try again later.
+    not-whitelisted: You aren't on the whitelist!
+    server-full: The server is full!
+    disallowed: Login disallowed.
+    plugin-disallow: Connect disallowed by plugin!
+    generic: Disconnected!
+    by-server: Disconnected by server!
+gui:
+    "yes": "Yes"
+    "no": "No"
+    cancel: Cancel
+    back: Back
+    done: Done
+    hacks: Hacks
+    login:
+        enter: Enter your username and password.
+        user: Username
+        pass: Password
+        login: Login
+        play-offline: Play Offline
+        remember: Remember Password
+        logging-in: Logging in...
+        fail-check: Failed to check login file.
+        fail-create: Failed to create login file.
+        failed: Incorrect username or password.
+    main-menu:
+        singleplayer: Singleplayer
+        multiplayer: Multiplayer
+        options: Options
+        texture-packs: Texture Packs
+        about: About
+        quit: Quit
+        language: Language
+    add-favorite:
+        add: Add Favorite
+        remove: Remove Favorite
+        enter-url: Enter the server's URL.
+        enter-name: Enter the favorite's name.
+    favorites:
+        select: Select a server.
+        delete: Select a server to delete.
+    delete:
+        level: Are you sure you want to delete level "%s"?
+        server: Are you sure you want to delete server "%s"?
+    servers:
+        select-fav: Select a server to favorite.
+        favorites: Favorites
+        enter-url: Enter a URL...
+        stop-server: Stop Server
+        start-server: Start Server
+        settings: Server Settings
+        console: Server Console
+        awaiting: Awaiting URL...
+        connect: Connect
+    texture-packs:
+        select: Select a texture pack.
+        current: "Current Texture Pack: %s"
+    blocks:
+        select: Select a block.
+    error:
+        main-menu: Main Menu
+    game-over:
+        respawn: Respawn
+        main-menu: Main Menu
+        game-over: Game over!
+        score: "Score: %s"
+    options:
+        hacks: Hacks...
+        controls: Controls...
+        title: Options
+    menu:
+        options: Options...
+        title: Game Menu
+        dump: Dump Level
+        main-menu: Main Menu
+        back: Back to game
+    level-dump:
+        format: Format
+        dump: Dump
+        name: "Enter level name:"
+    level-create:
+        type: Type
+        small: Small
+        normal: Normal
+        huge: Huge
+        name: "Enter level name:"
+    load-level:
+        new: New Level
+        delete: Delete Level
+        title: Load Level
+        title-delete: Select a level to delete
+    language:
+        select: Select a language
+        current: "Current Language: %s"
+log:
+    create-fail: Failed to create log file handler!
+connecting:
+    connect: Connecting...
+    getting-info: Getting server info...
+    check: Make sure the URL is correct and hasn't expired.
+    probably-down: You failed to connect to the server. It's probably down!
+    fail-connect: Failed to connect!
+    invalid-page: Invalid server page!
+http:
+    downloading: Downloading %s...
+    downloaded: Downloaded %s.
+    downloading-resources: Downloading Resources...
+options:
+    "on": "ON"
+    "off": "OFF"
+    music: Music
+    sound: Sound
+    invert-mouse: Invert Mouse
+    show-info: Show Info
+    render-distance: Render Distance
+    view-bobbing: View Bobbing
+    3d-anaglyph: 3D Anaglyph
+    limit-frames: Limit Framerate
+    survival: Survival Mode
+    smoothing: Smoothing
+    keys:
+        forward: Forward
+        left: Left
+        back: Back
+        right: Right
+        jump: Jump
+        blocks: Show Blocks
+        chat: Chat
+        toggle-fog: Toggle Fog
+        save-loc: Save Location
+        load-loc: Load Location
+    hacks:
+        speed: Speedhack
+screenshot:
+    saved: Saved screenshot "%s"!
+    error: "Error saving screenshot: %s"
